@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fdfdfd;
+  color: #333;
+  background-image: url(https://media.istockphoto.com/id/1284516914/vector/music-and-light-background-illustration.jpg?s=612x612&w=0&k=20&c=V4VL-OxErgyRZlEDGTCWERlWRJo2H0oi5C9GMrUnE04=);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+  background: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.light {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+
+.light .text {
+  max-width: 50%;
+}
+
+.light h1 {
+  font-size: 2.5em;
+  line-height: 1.2;
+}
+
+.light button {
+  background: #ff4c4c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.light .image img {
+  width: 300px;
+  border-radius: 12px;
+}
+
+.products {
+  background: #111;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product {
+  background: #222;
+  padding: 20px;
+  border-radius: 12px;
+  width: 150px;
+  
+}
+
+.product button {
+  background: #ff4c4c;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}

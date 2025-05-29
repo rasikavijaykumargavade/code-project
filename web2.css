@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+header {
+  margin:20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+  background: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+
+.pricing-container {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.plan {
+  padding: 30px;
+  border-radius: 16px;
+  width: 260px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.basic {
+  background: #fff9e6;
+}
+
+.pro {
+  background: #1c1c1c;
+  color: white;
+  transform: scale(1.05);
+}
+
+.master {
+  background: #fefbe9;
+}
+
+.plan h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.plan p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #ccc;
+  margin-right: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+button {
+  background:#656460;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
